@@ -1,5 +1,5 @@
 # csvFiles
-This contains the CSV files that were used to create the outputs folder.
+This contains the CSV files that were used to create the outputs folder using **oneSearch.py**. The following examples should help you set up your own CSV file. You can also just use a premade one and use your own data instead while maintaining the format.
 
 ## Example for googleTest.py's CSV:
 
