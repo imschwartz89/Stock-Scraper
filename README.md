@@ -94,7 +94,7 @@ Some examples of the flags being used on **oneSearch.py** (can also be used for 
 <br />-no -s or -c flag which just prints the total value
 <br />`$ python3 oneSearch.py -i oct062020.csv`
 
-<br />-using -io flag the days data will also overwrite **csvFiles/oct222020.csv**'s data, if you are running a second time in one day, this may be useful, it will also display the sign
+<br />-using -io flag the current day's data will also overwrite **csvFiles/oct222020.csv**'s data, if you are running a second time in one day, this may be useful, it will also display the sign
 <br />`$ python3 oneSearch.py -io oct222020.csv -s`
 
 <br />-the -p flag to print the HTML page for TSLA stock to the file ***TSLA.html*** which will be made. The -o flag is not required, but is required to put the printout in a file instead of on screen. The user can also just redirect the output instead of using the -o flag (... > TSLA.html).
@@ -103,9 +103,9 @@ Some examples of the flags being used on **oneSearch.py** (can also be used for 
 ### Warning
 
 ***NOTE: If you keep getting:  
-<br />WARNING 1001 - Stock (<Ticker>) value not found
+<br />WARNING 1001 - Stock ({Ticker}) value not found
 <br />Using 0 for price...
-<br />for all tickers the warning means that the value is not found by the script off of the search engine. First check that the CSV file is correct. If you are using googleTest.py, the warning most likely means that the gibberish is no longer correct. Please read this to help fix that issue: https://github.com/imschwartz89/Stock-Scraper/tree/main/google***
+<br /><br />for all tickers the warning means that the value is not found by the script off of the search engine. First check that the CSV file is correct. If you are using googleTest.py, the warning most likely means that the gibberish is no longer correct. Please read this to help fix that issue: https://github.com/imschwartz89/Stock-Scraper/tree/main/google***
 
 
 
